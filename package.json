@@ -1,5 +1,6 @@
 {
   "name": "graph-origami-start",
+  "type": "module",
   "dependencies": {
     "@graphorigami/origami": "0.0.19"
   },
