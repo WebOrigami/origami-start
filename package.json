@@ -1,0 +1,12 @@
+{
+  "name": "graph-origami-start",
+  "dependencies": {
+    "@graphorigami/origami": "0.0.19"
+  },
+  "engines": {
+    "node": ">=16.6.1"
+  },
+  "scripts": {
+    "start": "ori serve"
+  }
+}
