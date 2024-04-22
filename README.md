@@ -17,7 +17,7 @@ $ npm install
 $ npm start
 ```
 
-This will start the Origami server on a local port; open the displayed URL to see "Hello!".
+This will start the Origami server on a local port; open the displayed URL to see "Hello!"
 
 In Origami, building a project is just copying it to local files:
 
