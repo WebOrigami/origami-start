@@ -2,12 +2,10 @@
   "name": "graph-origami-start",
   "type": "module",
   "dependencies": {
-    "@graphorigami/origami": "0.0.19"
-  },
-  "engines": {
-    "node": ">=16.6.1"
+    "@weborigami/origami": "0.0.48"
   },
   "scripts": {
-    "start": "ori serve"
+    "build": "ori @copy src/site.ori, @mkdir/build",
+    "start": "ori @serve @watch src, =@debug site.ori"
   }
 }
