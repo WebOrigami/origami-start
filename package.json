@@ -1,5 +1,5 @@
 {
-  "name": "graph-origami-start",
+  "name": "origami-start",
   "type": "module",
   "dependencies": {
     "@weborigami/origami": "0.0.48"
