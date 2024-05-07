@@ -5,7 +5,7 @@
     "@weborigami/origami": "0.0.49"
   },
   "scripts": {
-    "build": "ori @copy src/site.ori, @mkdir/build",
+    "build": "rm -rf build; ori @copy src/site.ori, @mkdir/build",
     "start": "ori @serve @watch src, =@debug site.ori"
   }
 }
