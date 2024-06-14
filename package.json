@@ -2,10 +2,10 @@
   "name": "origami-start",
   "type": "module",
   "dependencies": {
-    "@weborigami/origami": "0.0.50"
+    "@weborigami/origami": "0.0.57"
   },
   "scripts": {
-    "build": "rm -rf build; ori @copy src/site.ori, @mkdir/build",
+    "build": "ori @copy src/site.ori, @clean @files/build",
     "start": "ori @serve @watch src, =@debug site.ori"
   }
 }
