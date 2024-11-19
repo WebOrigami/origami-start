@@ -2,7 +2,7 @@
   "name": "origami-start",
   "type": "module",
   "dependencies": {
-    "@weborigami/origami": "0.0.66"
+    "@weborigami/origami": "0.1.0"
   },
   "scripts": {
     "build": "ori copy src/site.ori, clear files:build",
